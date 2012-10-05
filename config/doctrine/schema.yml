@@ -1,0 +1,377 @@
+CategoriaTicket:
+  connection: doctrine
+  tableName: categoria_ticket
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    descripcion:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    PerfilCategoriaTicket:
+      local: id
+      foreign: categoria_ticket_id
+      type: many
+    Ticket:
+      local: id
+      foreign: categoria_ticket_id
+      type: many
+Curso:
+  connection: doctrine
+  tableName: curso
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    nombre_corto:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    dia:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    horario:
+      type: time(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    UsuarioCurso:
+      local: id
+      foreign: usuario_id
+      type: many
+EstadoTicket:
+  connection: doctrine
+  tableName: estado_ticket
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Ticket:
+      local: id
+      foreign: estado_ticket_id
+      type: many
+EstadoUsuario:
+  connection: doctrine
+  tableName: estado_usuario
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Usuario:
+      local: id
+      foreign: estado_usuario_id
+      type: many
+Nota:
+  connection: doctrine
+  tableName: nota
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    fecha_alta:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    texto:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ticket_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Ticket:
+      local: ticket_id
+      foreign: id
+      type: one
+Perfil:
+  connection: doctrine
+  tableName: perfil
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(100)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    fecha_creacion:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    PerfilCategoriaTicket:
+      local: id
+      foreign: perfil_id
+      type: many
+    Usuario:
+      local: id
+      foreign: perfil_id
+      type: many
+PerfilCategoriaTicket:
+  connection: doctrine
+  tableName: perfil_categoria_ticket
+  columns:
+    perfil_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    categoria_ticket_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+  relations:
+    Perfil:
+      local: perfil_id
+      foreign: id
+      type: one
+    CategoriaTicket:
+      local: categoria_ticket_id
+      foreign: id
+      type: one
+Ticket:
+  connection: doctrine
+  tableName: ticket
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    descripcion:
+      type: string()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    fecha_alta:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    fecha_actualizacion:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    fecha_cierre:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    usuario_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    estado_ticket_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    categoria_ticket_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    Usuario:
+      local: usuario_id
+      foreign: id
+      type: one
+    EstadoTicket:
+      local: estado_ticket_id
+      foreign: id
+      type: one
+    CategoriaTicket:
+      local: categoria_ticket_id
+      foreign: id
+      type: one
+    Nota:
+      local: id
+      foreign: ticket_id
+      type: many
+Usuario:
+  connection: doctrine
+  tableName: usuario
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    apellido:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    mail:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    estado_usuario_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    perfil_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    EstadoUsuario:
+      local: estado_usuario_id
+      foreign: id
+      type: one
+    Perfil:
+      local: perfil_id
+      foreign: id
+      type: one
+    Ticket:
+      local: id
+      foreign: usuario_id
+      type: many
+    UsuarioCurso:
+      local: id
+      foreign: curso_id
+      type: many
+UsuarioCurso:
+  connection: doctrine
+  tableName: usuario_curso
+  columns:
+    curso_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    usuario_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+  relations:
+    Usuario:
+      local: curso_id
+      foreign: id
+      type: one
+    Curso:
+      local: usuario_id
+      foreign: id
+      type: one

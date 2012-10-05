@@ -1,0 +1,312 @@
+Oct 05 01:36:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /categoria with parameters array (  'module' => 'categoria',  'action' => 'index',)
+Oct 05 01:36:20 symfony [info] {myUser} Automatic user logout due to timeout
+Oct 05 01:36:20 symfony [info] {myUser} User is not authenticated
+Oct 05 01:36:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:36:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:36:21 symfony [info] {categoriaActions} Call "categoriaActions->executeIndex()"
+Oct 05 01:36:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:36:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion FROM categoria_ticket c - ()
+Oct 05 01:36:21 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/indexSuccess.php"
+Oct 05 01:36:21 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:36:21 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:36:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:36:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:36:21 symfony [info] {sfWebDebugLogger} Configuration 505.29 ms (10)
+Oct 05 01:36:21 symfony [info] {sfWebDebugLogger} Factories 2600.37 ms (1)
+Oct 05 01:36:21 symfony [info] {sfWebDebugLogger} Action "categoria/index" 456.38 ms (1)
+Oct 05 01:36:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:36:21 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/index" 330.53 ms (1)
+Oct 05 01:36:22 symfony [info] {sfWebResponse} Send content (31191 o)
+Oct 05 01:37:10 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /categoria/new with parameters array (  'module' => 'categoria',  'action' => 'new',)
+Oct 05 01:37:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:37:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:37:10 symfony [info] {categoriaActions} Call "categoriaActions->executeNew()"
+Oct 05 01:37:10 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/newSuccess.php"
+Oct 05 01:37:10 symfony [info] {sfPartialView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/_form.php"
+Oct 05 01:37:10 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:37:10 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:37:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:37:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:37:10 symfony [info] {sfWebDebugLogger} Configuration 15.20 ms (9)
+Oct 05 01:37:10 symfony [info] {sfWebDebugLogger} Factories 65.16 ms (1)
+Oct 05 01:37:10 symfony [info] {sfWebDebugLogger} Action "categoria/new" 38.00 ms (1)
+Oct 05 01:37:10 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/new" 89.23 ms (1)
+Oct 05 01:37:10 symfony [info] {sfWebDebugLogger} Partial "categoria/_form" 33.35 ms (1)
+Oct 05 01:37:10 symfony [info] {sfWebResponse} Send content (32145 o)
+Oct 05 01:44:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /categoria with parameters array (  'module' => 'categoria',  'action' => 'index',)
+Oct 05 01:44:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:44:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:44:28 symfony [info] {categoriaActions} Call "categoriaActions->executeIndex()"
+Oct 05 01:44:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:44:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion FROM categoria_ticket c - ()
+Oct 05 01:44:28 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/indexSuccess.php"
+Oct 05 01:44:28 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:44:28 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:44:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:44:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:44:28 symfony [info] {sfWebDebugLogger} Configuration 9.95 ms (9)
+Oct 05 01:44:28 symfony [info] {sfWebDebugLogger} Factories 65.26 ms (1)
+Oct 05 01:44:28 symfony [info] {sfWebDebugLogger} Action "categoria/index" 51.70 ms (1)
+Oct 05 01:44:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:44:28 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/index" 40.02 ms (1)
+Oct 05 01:44:28 symfony [info] {sfWebResponse} Send content (30557 o)
+Oct 05 01:51:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /categoria/new with parameters array (  'module' => 'categoria',  'action' => 'new',)
+Oct 05 01:51:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:23 symfony [info] {categoriaActions} Call "categoriaActions->executeNew()"
+Oct 05 01:51:23 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/newSuccess.php"
+Oct 05 01:51:23 symfony [info] {sfPartialView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/_form.php"
+Oct 05 01:51:23 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:23 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:23 symfony [info] {sfWebDebugLogger} Configuration 11.57 ms (9)
+Oct 05 01:51:23 symfony [info] {sfWebDebugLogger} Factories 63.37 ms (1)
+Oct 05 01:51:23 symfony [info] {sfWebDebugLogger} Action "categoria/new" 39.04 ms (1)
+Oct 05 01:51:23 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/new" 34.26 ms (1)
+Oct 05 01:51:23 symfony [info] {sfWebDebugLogger} Partial "categoria/_form" 10.51 ms (1)
+Oct 05 01:51:23 symfony [info] {sfWebResponse} Send content (32144 o)
+Oct 05 01:51:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /categoria/create with parameters array (  'module' => 'categoria',  'action' => 'create',)
+Oct 05 01:51:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:27 symfony [info] {categoriaActions} Call "categoriaActions->executeCreate()"
+Oct 05 01:51:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:27 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO categoria_ticket (nombre, descripcion) VALUES (?, ?) - (Categoria 1, )
+Oct 05 01:51:28 symfony [info] {sfFrontWebController} Redirect to "http://clasupport.local/frontend_dev.php/categoria/edit/id/1"
+Oct 05 01:51:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Oct 05 01:51:28 symfony [info] {sfWebResponse} Send header "Location: http://clasupport.local/frontend_dev.php/categoria/edit/id/1"
+Oct 05 01:51:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:28 symfony [info] {sfWebDebugLogger} Configuration 8.24 ms (8)
+Oct 05 01:51:28 symfony [info] {sfWebDebugLogger} Factories 56.27 ms (1)
+Oct 05 01:51:28 symfony [info] {sfWebDebugLogger} Action "categoria/create" 529.54 ms (1)
+Oct 05 01:51:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:51:28 symfony [info] {sfWebResponse} Send content (131 o)
+Oct 05 01:51:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /categoria/edit/id/1 with parameters array (  'module' => 'categoria',  'action' => 'edit',  'id' => '1',)
+Oct 05 01:51:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:28 symfony [info] {categoriaActions} Call "categoriaActions->executeEdit()"
+Oct 05 01:51:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion FROM categoria_ticket c WHERE (c.id = ?) LIMIT 1 - (1)
+Oct 05 01:51:28 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/editSuccess.php"
+Oct 05 01:51:28 symfony [info] {sfPartialView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/_form.php"
+Oct 05 01:51:28 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:28 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:28 symfony [info] {sfWebDebugLogger} Configuration 10.13 ms (9)
+Oct 05 01:51:28 symfony [info] {sfWebDebugLogger} Factories 54.15 ms (1)
+Oct 05 01:51:28 symfony [info] {sfWebDebugLogger} Action "categoria/edit" 104.95 ms (1)
+Oct 05 01:51:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:51:28 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/edit" 36.02 ms (1)
+Oct 05 01:51:28 symfony [info] {sfWebDebugLogger} Partial "categoria/_form" 12.86 ms (1)
+Oct 05 01:51:28 symfony [info] {sfWebResponse} Send content (35974 o)
+Oct 05 01:51:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /categoria with parameters array (  'module' => 'categoria',  'action' => 'index',)
+Oct 05 01:51:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:30 symfony [info] {categoriaActions} Call "categoriaActions->executeIndex()"
+Oct 05 01:51:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion FROM categoria_ticket c - ()
+Oct 05 01:51:30 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/indexSuccess.php"
+Oct 05 01:51:30 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:30 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:30 symfony [info] {sfWebDebugLogger} Configuration 8.95 ms (9)
+Oct 05 01:51:30 symfony [info] {sfWebDebugLogger} Factories 63.18 ms (1)
+Oct 05 01:51:30 symfony [info] {sfWebDebugLogger} Action "categoria/index" 61.52 ms (1)
+Oct 05 01:51:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:51:30 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/index" 30.32 ms (1)
+Oct 05 01:51:30 symfony [info] {sfWebResponse} Send content (30698 o)
+Oct 05 01:51:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /categoria/new with parameters array (  'module' => 'categoria',  'action' => 'new',)
+Oct 05 01:51:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:31 symfony [info] {categoriaActions} Call "categoriaActions->executeNew()"
+Oct 05 01:51:31 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/newSuccess.php"
+Oct 05 01:51:31 symfony [info] {sfPartialView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/_form.php"
+Oct 05 01:51:31 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:31 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:31 symfony [info] {sfWebDebugLogger} Configuration 11.73 ms (9)
+Oct 05 01:51:31 symfony [info] {sfWebDebugLogger} Factories 56.68 ms (1)
+Oct 05 01:51:31 symfony [info] {sfWebDebugLogger} Action "categoria/new" 36.09 ms (1)
+Oct 05 01:51:31 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/new" 33.43 ms (1)
+Oct 05 01:51:31 symfony [info] {sfWebDebugLogger} Partial "categoria/_form" 8.42 ms (1)
+Oct 05 01:51:31 symfony [info] {sfWebResponse} Send content (32143 o)
+Oct 05 01:51:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /categoria/create with parameters array (  'module' => 'categoria',  'action' => 'create',)
+Oct 05 01:51:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:35 symfony [info] {categoriaActions} Call "categoriaActions->executeCreate()"
+Oct 05 01:51:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:35 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO categoria_ticket (nombre, descripcion) VALUES (?, ?) - (Categoria 2, )
+Oct 05 01:51:35 symfony [info] {sfFrontWebController} Redirect to "http://clasupport.local/frontend_dev.php/categoria/edit/id/2"
+Oct 05 01:51:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Oct 05 01:51:35 symfony [info] {sfWebResponse} Send header "Location: http://clasupport.local/frontend_dev.php/categoria/edit/id/2"
+Oct 05 01:51:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:35 symfony [info] {sfWebDebugLogger} Configuration 8.44 ms (8)
+Oct 05 01:51:35 symfony [info] {sfWebDebugLogger} Factories 68.84 ms (1)
+Oct 05 01:51:35 symfony [info] {sfWebDebugLogger} Action "categoria/create" 123.26 ms (1)
+Oct 05 01:51:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:51:35 symfony [info] {sfWebResponse} Send content (131 o)
+Oct 05 01:51:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /categoria/edit/id/2 with parameters array (  'module' => 'categoria',  'action' => 'edit',  'id' => '2',)
+Oct 05 01:51:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:35 symfony [info] {categoriaActions} Call "categoriaActions->executeEdit()"
+Oct 05 01:51:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion FROM categoria_ticket c WHERE (c.id = ?) LIMIT 1 - (2)
+Oct 05 01:51:35 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/editSuccess.php"
+Oct 05 01:51:35 symfony [info] {sfPartialView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/_form.php"
+Oct 05 01:51:35 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:35 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:35 symfony [info] {sfWebDebugLogger} Configuration 9.10 ms (9)
+Oct 05 01:51:35 symfony [info] {sfWebDebugLogger} Factories 83.44 ms (1)
+Oct 05 01:51:35 symfony [info] {sfWebDebugLogger} Action "categoria/edit" 94.59 ms (1)
+Oct 05 01:51:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:51:35 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/edit" 38.06 ms (1)
+Oct 05 01:51:35 symfony [info] {sfWebDebugLogger} Partial "categoria/_form" 11.46 ms (1)
+Oct 05 01:51:35 symfony [info] {sfWebResponse} Send content (35972 o)
+Oct 05 01:51:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /categoria with parameters array (  'module' => 'categoria',  'action' => 'index',)
+Oct 05 01:51:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:38 symfony [info] {categoriaActions} Call "categoriaActions->executeIndex()"
+Oct 05 01:51:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion FROM categoria_ticket c - ()
+Oct 05 01:51:38 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/indexSuccess.php"
+Oct 05 01:51:38 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:38 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:38 symfony [info] {sfWebDebugLogger} Configuration 10.88 ms (9)
+Oct 05 01:51:38 symfony [info] {sfWebDebugLogger} Factories 78.08 ms (1)
+Oct 05 01:51:38 symfony [info] {sfWebDebugLogger} Action "categoria/index" 51.86 ms (1)
+Oct 05 01:51:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:51:38 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/index" 32.18 ms (1)
+Oct 05 01:51:38 symfony [info] {sfWebResponse} Send content (30834 o)
+Oct 05 01:51:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /categoria/new with parameters array (  'module' => 'categoria',  'action' => 'new',)
+Oct 05 01:51:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:39 symfony [info] {categoriaActions} Call "categoriaActions->executeNew()"
+Oct 05 01:51:39 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/newSuccess.php"
+Oct 05 01:51:39 symfony [info] {sfPartialView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/_form.php"
+Oct 05 01:51:39 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:39 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:39 symfony [info] {sfWebDebugLogger} Configuration 9.92 ms (9)
+Oct 05 01:51:39 symfony [info] {sfWebDebugLogger} Factories 53.89 ms (1)
+Oct 05 01:51:39 symfony [info] {sfWebDebugLogger} Action "categoria/new" 36.04 ms (1)
+Oct 05 01:51:39 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/new" 35.90 ms (1)
+Oct 05 01:51:39 symfony [info] {sfWebDebugLogger} Partial "categoria/_form" 12.39 ms (1)
+Oct 05 01:51:39 symfony [info] {sfWebResponse} Send content (32143 o)
+Oct 05 01:51:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /categoria/create with parameters array (  'module' => 'categoria',  'action' => 'create',)
+Oct 05 01:51:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:44 symfony [info] {categoriaActions} Call "categoriaActions->executeCreate()"
+Oct 05 01:51:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:44 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO categoria_ticket (nombre, descripcion) VALUES (?, ?) - (Categoria 3, )
+Oct 05 01:51:44 symfony [info] {sfFrontWebController} Redirect to "http://clasupport.local/frontend_dev.php/categoria/edit/id/3"
+Oct 05 01:51:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Oct 05 01:51:44 symfony [info] {sfWebResponse} Send header "Location: http://clasupport.local/frontend_dev.php/categoria/edit/id/3"
+Oct 05 01:51:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:44 symfony [info] {sfWebDebugLogger} Configuration 9.15 ms (8)
+Oct 05 01:51:44 symfony [info] {sfWebDebugLogger} Factories 58.98 ms (1)
+Oct 05 01:51:44 symfony [info] {sfWebDebugLogger} Action "categoria/create" 112.18 ms (1)
+Oct 05 01:51:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:51:44 symfony [info] {sfWebResponse} Send content (131 o)
+Oct 05 01:51:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /categoria/edit/id/3 with parameters array (  'module' => 'categoria',  'action' => 'edit',  'id' => '3',)
+Oct 05 01:51:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:44 symfony [info] {categoriaActions} Call "categoriaActions->executeEdit()"
+Oct 05 01:51:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion FROM categoria_ticket c WHERE (c.id = ?) LIMIT 1 - (3)
+Oct 05 01:51:44 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/editSuccess.php"
+Oct 05 01:51:44 symfony [info] {sfPartialView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/_form.php"
+Oct 05 01:51:44 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:44 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:44 symfony [info] {sfWebDebugLogger} Configuration 8.77 ms (9)
+Oct 05 01:51:44 symfony [info] {sfWebDebugLogger} Factories 56.65 ms (1)
+Oct 05 01:51:44 symfony [info] {sfWebDebugLogger} Action "categoria/edit" 91.35 ms (1)
+Oct 05 01:51:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:51:44 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/edit" 41.54 ms (1)
+Oct 05 01:51:44 symfony [info] {sfWebDebugLogger} Partial "categoria/_form" 16.19 ms (1)
+Oct 05 01:51:44 symfony [info] {sfWebResponse} Send content (35972 o)
+Oct 05 01:51:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /categoria with parameters array (  'module' => 'categoria',  'action' => 'index',)
+Oct 05 01:51:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:46 symfony [info] {categoriaActions} Call "categoriaActions->executeIndex()"
+Oct 05 01:51:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion FROM categoria_ticket c - ()
+Oct 05 01:51:46 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/categoria/templates/indexSuccess.php"
+Oct 05 01:51:46 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:46 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:46 symfony [info] {sfWebDebugLogger} Configuration 14.46 ms (9)
+Oct 05 01:51:46 symfony [info] {sfWebDebugLogger} Factories 54.31 ms (1)
+Oct 05 01:51:46 symfony [info] {sfWebDebugLogger} Action "categoria/index" 47.23 ms (1)
+Oct 05 01:51:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:51:46 symfony [info] {sfWebDebugLogger} View "Success" for "categoria/index" 27.60 ms (1)
+Oct 05 01:51:46 symfony [info] {sfWebResponse} Send content (30969 o)
+Oct 05 01:51:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /incidentes with parameters array (  'module' => 'incidentes',  'action' => 'index',)
+Oct 05 01:51:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:52 symfony [info] {incidentesActions} Call "incidentesActions->executeIndex()"
+Oct 05 01:51:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:52 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.id AS t__id, t.descripcion AS t__descripcion, t.fecha_alta AS t__fecha_alta, t.fecha_actualizacion AS t__fecha_actualizacion, t.fecha_cierre AS t__fecha_cierre, t.usuario_id AS t__usuario_id, t.estado_ticket_id AS t__estado_ticket_id, t.categoria_ticket_id AS t__categoria_ticket_id FROM ticket t - ()
+Oct 05 01:51:52 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/incidentes/templates/indexSuccess.php"
+Oct 05 01:51:52 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:52 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:52 symfony [info] {sfWebDebugLogger} Configuration 63.36 ms (10)
+Oct 05 01:51:52 symfony [info] {sfWebDebugLogger} Factories 56.79 ms (1)
+Oct 05 01:51:52 symfony [info] {sfWebDebugLogger} Action "incidentes/index" 63.44 ms (1)
+Oct 05 01:51:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.02 ms (2)
+Oct 05 01:51:52 symfony [info] {sfWebDebugLogger} View "Success" for "incidentes/index" 54.95 ms (1)
+Oct 05 01:51:52 symfony [info] {sfWebResponse} Send content (31428 o)
+Oct 05 01:51:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /incidentes/new with parameters array (  'module' => 'incidentes',  'action' => 'new',)
+Oct 05 01:51:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:51:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:51:56 symfony [info] {incidentesActions} Call "incidentesActions->executeNew()"
+Oct 05 01:51:56 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/incidentes/templates/newSuccess.php"
+Oct 05 01:51:56 symfony [info] {sfPartialView} Render "E:\proyectos\clasupport\apps\frontend\modules/incidentes/templates/_form.php"
+Oct 05 01:51:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:51:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.nombre AS u__nombre, u.apellido AS u__apellido, u.mail AS u__mail, u.estado_usuario_id AS u__estado_usuario_id, u.perfil_id AS u__perfil_id FROM usuario u - ()
+Oct 05 01:51:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.id AS e__id, e.nombre AS e__nombre FROM estado_ticket e - ()
+Oct 05 01:51:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion FROM categoria_ticket c - ()
+Oct 05 01:51:57 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:57 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:51:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:51:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:51:57 symfony [info] {sfWebDebugLogger} Configuration 10.13 ms (9)
+Oct 05 01:51:57 symfony [info] {sfWebDebugLogger} Factories 68.13 ms (1)
+Oct 05 01:51:57 symfony [info] {sfWebDebugLogger} Action "incidentes/new" 63.10 ms (1)
+Oct 05 01:51:57 symfony [info] {sfWebDebugLogger} View "Success" for "incidentes/new" 617.14 ms (1)
+Oct 05 01:51:57 symfony [info] {sfWebDebugLogger} Partial "incidentes/_form" 592.68 ms (1)
+Oct 05 01:51:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (4)
+Oct 05 01:51:57 symfony [info] {sfWebResponse} Send content (55321 o)
+Oct 05 01:59:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /incidentes/new with parameters array (  'module' => 'incidentes',  'action' => 'new',)
+Oct 05 01:59:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Oct 05 01:59:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Oct 05 01:59:06 symfony [info] {incidentesActions} Call "incidentesActions->executeNew()"
+Oct 05 01:59:06 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\modules/incidentes/templates/newSuccess.php"
+Oct 05 01:59:06 symfony [info] {sfPartialView} Render "E:\proyectos\clasupport\apps\frontend\modules/incidentes/templates/_form.php"
+Oct 05 01:59:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Oct 05 01:59:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT u.id AS u__id, u.nombre AS u__nombre, u.apellido AS u__apellido, u.mail AS u__mail, u.estado_usuario_id AS u__estado_usuario_id, u.perfil_id AS u__perfil_id FROM usuario u - ()
+Oct 05 01:59:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.id AS e__id, e.nombre AS e__nombre FROM estado_ticket e - ()
+Oct 05 01:59:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion FROM categoria_ticket c - ()
+Oct 05 01:59:07 symfony [info] {sfPHPView} Decorate content with "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:59:07 symfony [info] {sfPHPView} Render "E:\proyectos\clasupport\apps\frontend\templates/layout.php"
+Oct 05 01:59:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Oct 05 01:59:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Oct 05 01:59:07 symfony [info] {sfWebDebugLogger} Configuration 20.22 ms (9)
+Oct 05 01:59:07 symfony [info] {sfWebDebugLogger} Factories 71.18 ms (1)
+Oct 05 01:59:07 symfony [info] {sfWebDebugLogger} Action "incidentes/new" 60.57 ms (1)
+Oct 05 01:59:07 symfony [info] {sfWebDebugLogger} View "Success" for "incidentes/new" 180.71 ms (1)
+Oct 05 01:59:07 symfony [info] {sfWebDebugLogger} Partial "incidentes/_form" 153.76 ms (1)
+Oct 05 01:59:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (4)
+Oct 05 01:59:07 symfony [info] {sfWebResponse} Send content (55386 o)
