@@ -6,15 +6,15 @@ default:
     content-type: text/html
 
   metas:
-    #title:        symfony project
-    #description:  symfony project
-    #keywords:     symfony, project
-    #language:     en
-    #robots:       index, follow
+    title:        CLA Support
+    description:  soporte para alumnos de cla linux institute
+    keywords:     soporte, cla, linux, project
+    language:     es
+    robots:       index, follow
 
-  stylesheets:    [main.css]
+  stylesheets:    [main.css, bootstrap.css]
 
-  javascripts:    []
+  javascripts:    [bootstrap.js]
 
   has_layout:     true
   layout:         layout

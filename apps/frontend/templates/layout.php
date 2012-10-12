@@ -9,6 +9,7 @@
     <?php include_javascripts() ?>
   </head>
   <body>
+      <?php echo image_tag('header_cla', array("size" => "290x100")) ?>
     <?php echo $sf_content ?>
   </body>
 </html>

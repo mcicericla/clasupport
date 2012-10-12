@@ -1,0 +1,10 @@
+CategoriaTicket:
+  categoria1:
+    nombre: Categoria 1
+    descripcion: Descripcion categoria 1
+  categoria2:
+    nombre: Categoria 2
+    descripcion: Descripcion categoria 2
+  categoria3:
+    nombre: Categoria 3
+    descripcion: Descripcion categoria 3
