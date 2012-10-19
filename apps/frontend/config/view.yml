@@ -12,7 +12,7 @@ default:
     language:     es
     robots:       index, follow
 
-  stylesheets:    [main.css, bootstrap.css]
+  stylesheets:    [bootstrap.css]
 
   javascripts:    [bootstrap.js]
 

@@ -1,3 +1,3 @@
-<h1>Edit Categoria ticket</h1>
+<h3>Editar Categoria</h3>
 
 <?php include_partial('form', array('form' => $form)) ?>

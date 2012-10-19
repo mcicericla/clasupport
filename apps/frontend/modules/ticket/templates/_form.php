@@ -28,27 +28,6 @@
         </td>
       </tr>
       <tr>
-        <th><?php echo $form['fecha_alta']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['fecha_alta']->renderError() ?>
-          <?php echo $form['fecha_alta'] ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['fecha_actualizacion']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['fecha_actualizacion']->renderError() ?>
-          <?php echo $form['fecha_actualizacion'] ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['fecha_cierre']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['fecha_cierre']->renderError() ?>
-          <?php echo $form['fecha_cierre'] ?>
-        </td>
-      </tr>
-      <tr>
         <th><?php echo $form['usuario_id']->renderLabel() ?></th>
         <td>
           <?php echo $form['usuario_id']->renderError() ?>
