@@ -65,15 +65,30 @@ class ticketActions extends sfActions
 
     $this->redirect('ticket/index');
   }
+  
+  public function executeAbiertos(sfWebRequest $request){
+      $this->tickets = Doctrine_Core::getTable('Ticket')->findBy("estado_ticket_id", EstadoTicket::ESTADO_ABIERTO);
+  }
+  
+  public function executeTodos(sfWebRequest $request){
+      $this->tickets = Doctrine_Core::getTable('Ticket')->findBy("usuario_id", 1);
+  }
 
   protected function processForm(sfWebRequest $request, sfForm $form)
   {
     $form->bind($request->getParameter($form->getName()), $request->getFiles($form->getName()));
     if ($form->isValid())
     {
+      if($form->getObject()->isNew()){
+          $this->getUser()->setFlash("info", "Su solicitud ha sido enviada");
+      }
+      else{
+          $this->getUser()->setFlash("info", "Su solicitud ha sido actualizada");
+      }
+      
       $ticket = $form->save();
 
-      $this->redirect('ticket/edit?id='.$ticket->getId());
+      $this->redirect('ticket/abiertos');
     }
   }
 }

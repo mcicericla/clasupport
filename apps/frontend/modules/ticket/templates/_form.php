@@ -21,31 +21,17 @@
     <tbody>
       <?php echo $form->renderGlobalErrors() ?>
       <tr>
-        <th><?php echo $form['descripcion']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['descripcion']->renderError() ?>
-          <?php echo $form['descripcion'] ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['usuario_id']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['usuario_id']->renderError() ?>
-          <?php echo $form['usuario_id'] ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['estado_ticket_id']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['estado_ticket_id']->renderError() ?>
-          <?php echo $form['estado_ticket_id'] ?>
-        </td>
-      </tr>
-      <tr>
         <th><?php echo $form['categoria_ticket_id']->renderLabel() ?></th>
         <td>
           <?php echo $form['categoria_ticket_id']->renderError() ?>
           <?php echo $form['categoria_ticket_id'] ?>
+        </td>
+      </tr>
+      <tr>
+        <th><?php echo $form['descripcion']->renderLabel() ?></th>
+        <td>
+          <?php echo $form['descripcion']->renderError() ?>
+          <?php echo $form['descripcion'] ?>
         </td>
       </tr>
     </tbody>

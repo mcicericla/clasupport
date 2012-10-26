@@ -1,6 +1,6 @@
-<h1>Tickets List</h1>
+<h3>Todas mis solicitudes</h3>
 
-<table>
+<table class="table table-bordered">
   <thead>
     <tr>
       <th>Id</th>
@@ -8,7 +8,6 @@
       <th>Fecha alta</th>
       <th>Fecha actualizacion</th>
       <th>Fecha cierre</th>
-      <th>Usuario</th>
       <th>Estado ticket</th>
       <th>Categoria ticket</th>
     </tr>
@@ -21,9 +20,8 @@
       <td><?php echo $ticket->getFechaAlta() ?></td>
       <td><?php echo $ticket->getFechaActualizacion() ?></td>
       <td><?php echo $ticket->getFechaCierre() ?></td>
-      <td><?php echo $ticket->getUsuarioId() ?></td>
-      <td><?php echo $ticket->getEstadoTicketId() ?></td>
-      <td><?php echo $ticket->getCategoriaTicketId() ?></td>
+      <td><?php echo $ticket->getEstadoTicket() ?></td>
+      <td><?php echo $ticket->getCategoriaTicket() ?></td>
     </tr>
     <?php endforeach; ?>
   </tbody>
