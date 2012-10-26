@@ -1,10 +1,25 @@
 CategoriaTicket:
-  categoria1:
-    nombre: Categoria 1
-    descripcion: Descripcion categoria 1
-  categoria2:
-    nombre: Categoria 2
-    descripcion: Descripcion categoria 2
-  categoria3:
-    nombre: Categoria 3
-    descripcion: Descripcion categoria 3
+  inscripcion:
+    nombre: Inscripción a un nuevo curso
+    descripcion: Inscripción a un nuevo curso
+  campus:
+    nombre: No es posible acceder al campus
+    descripcion: No es posible acceder al campus
+  aula:
+    nombre: No es posible acceder al aula virtual
+    descripcion: No es posible acceder al aula virtual
+  enlace:
+    nombre: Enlace roto
+    descripcion: Enlace roto
+  video:
+    nombre: Problema con el entorno de desarrollo
+    descripcion: No es posible acceder al aula virtual
+  entorno:
+    nombre: Consulta sobre ejercitación
+    descripcion: Consulta sobre ejercitación
+  ejercicios:
+    nombre: Consulta sobre evaluación
+    descripcion: Consulta sobre evaluación
+  otro:
+    nombre: Otro
+    descripcion: Otro

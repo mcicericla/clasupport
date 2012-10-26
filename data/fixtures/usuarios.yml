@@ -1,0 +1,13 @@
+Usuario:
+  lucila:
+    nombre: Lucila
+    apellido: Bustamante
+    mail: mciceri@carreralinux.com.ar
+    Perfil: alumno
+    EstadoUsuario: habilitado
+  carlos:
+    nombre: Carlos
+    apellido: Fernandez
+    mail: mciceri@carreralinux.com.ar
+    Perfil: alumno
+    EstadoUsuario: habilitado

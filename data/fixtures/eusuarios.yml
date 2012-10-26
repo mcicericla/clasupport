@@ -1,0 +1,5 @@
+EstadoUsuario:
+  habilitado:
+    nombre: Habilitado
+  bloqueado:
+    nombre: Bloqueado

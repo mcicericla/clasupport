@@ -1,0 +1,5 @@
+EstadoTicket:
+  abierto:
+    nombre: Abierto
+  cerrado:
+    nombre: Cerrado
